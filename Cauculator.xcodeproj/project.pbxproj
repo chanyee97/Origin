@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC824AD61E72F737004C67D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC824AD51E72F737004C67D8 /* AppDelegate.swift */; };
+		EC824AD81E72F737004C67D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC824AD71E72F737004C67D8 /* ViewController.swift */; };
+		EC824ADB1E72F737004C67D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC824AD91E72F737004C67D8 /* Main.storyboard */; };
+		EC824ADD1E72F737004C67D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC824ADC1E72F737004C67D8 /* Assets.xcassets */; };
+		EC824AE01E72F737004C67D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC824ADE1E72F737004C67D8 /* LaunchScreen.storyboard */; };
+		EC824AEB1E72F737004C67D8 /* CauculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC824AEA1E72F737004C67D8 /* CauculatorTests.swift */; };
+		EC824AF61E72F737004C67D8 /* CauculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC824AF51E72F737004C67D8 /* CauculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC824AE71E72F737004C67D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC824ACA1E72F737004C67D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC824AD11E72F737004C67D8;
+			remoteInfo = Cauculator;
+		};
+		EC824AF21E72F737004C67D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC824ACA1E72F737004C67D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC824AD11E72F737004C67D8;
+			remoteInfo = Cauculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC824AD21E72F737004C67D8 /* Cauculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cauculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC824AD51E72F737004C67D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC824AD71E72F737004C67D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC824ADA1E72F737004C67D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC824ADC1E72F737004C67D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC824ADF1E72F737004C67D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC824AE11E72F737004C67D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC824AE61E72F737004C67D8 /* CauculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CauculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC824AEA1E72F737004C67D8 /* CauculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CauculatorTests.swift; sourceTree = "<group>"; };
+		EC824AEC1E72F737004C67D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC824AF11E72F737004C67D8 /* CauculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CauculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC824AF51E72F737004C67D8 /* CauculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CauculatorUITests.swift; sourceTree = "<group>"; };
+		EC824AF71E72F737004C67D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC824ACF1E72F737004C67D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC824AE31E72F737004C67D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC824AEE1E72F737004C67D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC824AC91E72F737004C67D8 = {
+			isa = PBXGroup;
+			children = (
+				EC824AD41E72F737004C67D8 /* Cauculator */,
+				EC824AE91E72F737004C67D8 /* CauculatorTests */,
+				EC824AF41E72F737004C67D8 /* CauculatorUITests */,
+				EC824AD31E72F737004C67D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC824AD31E72F737004C67D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC824AD21E72F737004C67D8 /* Cauculator.app */,
+				EC824AE61E72F737004C67D8 /* CauculatorTests.xctest */,
+				EC824AF11E72F737004C67D8 /* CauculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC824AD41E72F737004C67D8 /* Cauculator */ = {
+			isa = PBXGroup;
+			children = (
+				EC824AD51E72F737004C67D8 /* AppDelegate.swift */,
+				EC824AD71E72F737004C67D8 /* ViewController.swift */,
+				EC824AD91E72F737004C67D8 /* Main.storyboard */,
+				EC824ADC1E72F737004C67D8 /* Assets.xcassets */,
+				EC824ADE1E72F737004C67D8 /* LaunchScreen.storyboard */,
+				EC824AE11E72F737004C67D8 /* Info.plist */,
+			);
+			path = Cauculator;
+			sourceTree = "<group>";
+		};
+		EC824AE91E72F737004C67D8 /* CauculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC824AEA1E72F737004C67D8 /* CauculatorTests.swift */,
+				EC824AEC1E72F737004C67D8 /* Info.plist */,
+			);
+			path = CauculatorTests;
+			sourceTree = "<group>";
+		};
+		EC824AF41E72F737004C67D8 /* CauculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC824AF51E72F737004C67D8 /* CauculatorUITests.swift */,
+				EC824AF71E72F737004C67D8 /* Info.plist */,
+			);
+			path = CauculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC824AD11E72F737004C67D8 /* Cauculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC824AFA1E72F737004C67D8 /* Build configuration list for PBXNativeTarget "Cauculator" */;
+			buildPhases = (
+				EC824ACE1E72F737004C67D8 /* Sources */,
+				EC824ACF1E72F737004C67D8 /* Frameworks */,
+				EC824AD01E72F737004C67D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cauculator;
+			productName = Cauculator;
+			productReference = EC824AD21E72F737004C67D8 /* Cauculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC824AE51E72F737004C67D8 /* CauculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC824AFD1E72F737004C67D8 /* Build configuration list for PBXNativeTarget "CauculatorTests" */;
+			buildPhases = (
+				EC824AE21E72F737004C67D8 /* Sources */,
+				EC824AE31E72F737004C67D8 /* Frameworks */,
+				EC824AE41E72F737004C67D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC824AE81E72F737004C67D8 /* PBXTargetDependency */,
+			);
+			name = CauculatorTests;
+			productName = CauculatorTests;
+			productReference = EC824AE61E72F737004C67D8 /* CauculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC824AF01E72F737004C67D8 /* CauculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC824B001E72F737004C67D8 /* Build configuration list for PBXNativeTarget "CauculatorUITests" */;
+			buildPhases = (
+				EC824AED1E72F737004C67D8 /* Sources */,
+				EC824AEE1E72F737004C67D8 /* Frameworks */,
+				EC824AEF1E72F737004C67D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC824AF31E72F737004C67D8 /* PBXTargetDependency */,
+			);
+			name = CauculatorUITests;
+			productName = CauculatorUITests;
+			productReference = EC824AF11E72F737004C67D8 /* CauculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC824ACA1E72F737004C67D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Chanyee;
+				TargetAttributes = {
+					EC824AD11E72F737004C67D8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6AB934NS5F;
+						ProvisioningStyle = Automatic;
+					};
+					EC824AE51E72F737004C67D8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6AB934NS5F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC824AD11E72F737004C67D8;
+					};
+					EC824AF01E72F737004C67D8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6AB934NS5F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC824AD11E72F737004C67D8;
+					};
+				};
+			};
+			buildConfigurationList = EC824ACD1E72F737004C67D8 /* Build configuration list for PBXProject "Cauculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC824AC91E72F737004C67D8;
+			productRefGroup = EC824AD31E72F737004C67D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC824AD11E72F737004C67D8 /* Cauculator */,
+				EC824AE51E72F737004C67D8 /* CauculatorTests */,
+				EC824AF01E72F737004C67D8 /* CauculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC824AD01E72F737004C67D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC824AE01E72F737004C67D8 /* LaunchScreen.storyboard in Resources */,
+				EC824ADD1E72F737004C67D8 /* Assets.xcassets in Resources */,
+				EC824ADB1E72F737004C67D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC824AE41E72F737004C67D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC824AEF1E72F737004C67D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC824ACE1E72F737004C67D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC824AD81E72F737004C67D8 /* ViewController.swift in Sources */,
+				EC824AD61E72F737004C67D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC824AE21E72F737004C67D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC824AEB1E72F737004C67D8 /* CauculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC824AED1E72F737004C67D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC824AF61E72F737004C67D8 /* CauculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC824AE81E72F737004C67D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC824AD11E72F737004C67D8 /* Cauculator */;
+			targetProxy = EC824AE71E72F737004C67D8 /* PBXContainerItemProxy */;
+		};
+		EC824AF31E72F737004C67D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC824AD11E72F737004C67D8 /* Cauculator */;
+			targetProxy = EC824AF21E72F737004C67D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC824AD91E72F737004C67D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC824ADA1E72F737004C67D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC824ADE1E72F737004C67D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC824ADF1E72F737004C67D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC824AF81E72F737004C67D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC824AF91E72F737004C67D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC824AFB1E72F737004C67D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6AB934NS5F;
+				INFOPLIST_FILE = Cauculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chanyee.1997.Cauculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EC824AFC1E72F737004C67D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6AB934NS5F;
+				INFOPLIST_FILE = Cauculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chanyee.1997.Cauculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EC824AFE1E72F737004C67D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6AB934NS5F;
+				INFOPLIST_FILE = CauculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chanyee.1997.CauculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cauculator.app/Cauculator";
+			};
+			name = Debug;
+		};
+		EC824AFF1E72F737004C67D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6AB934NS5F;
+				INFOPLIST_FILE = CauculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chanyee.1997.CauculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cauculator.app/Cauculator";
+			};
+			name = Release;
+		};
+		EC824B011E72F737004C67D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6AB934NS5F;
+				INFOPLIST_FILE = CauculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chanyee.1997.CauculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Cauculator;
+			};
+			name = Debug;
+		};
+		EC824B021E72F737004C67D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6AB934NS5F;
+				INFOPLIST_FILE = CauculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chanyee.1997.CauculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Cauculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC824ACD1E72F737004C67D8 /* Build configuration list for PBXProject "Cauculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC824AF81E72F737004C67D8 /* Debug */,
+				EC824AF91E72F737004C67D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC824AFA1E72F737004C67D8 /* Build configuration list for PBXNativeTarget "Cauculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC824AFB1E72F737004C67D8 /* Debug */,
+				EC824AFC1E72F737004C67D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC824AFD1E72F737004C67D8 /* Build configuration list for PBXNativeTarget "CauculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC824AFE1E72F737004C67D8 /* Debug */,
+				EC824AFF1E72F737004C67D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC824B001E72F737004C67D8 /* Build configuration list for PBXNativeTarget "CauculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC824B011E72F737004C67D8 /* Debug */,
+				EC824B021E72F737004C67D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC824ACA1E72F737004C67D8 /* Project object */;
+}
